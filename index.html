@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebRTC Video Chat</title>
+    <style>
+      #local-video, #remote-video {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WebRTC Video Chat</h1>
+    <video id="local-video" autoplay playsinline></video>
+    <video id="remote-video" autoplay playsinline></video>
+    <button id="call-btn">Call</button>
+    <button id="hangup-btn">Hang Up</button>
+    <script src="main.js"></script>
+  </body>
+</html>
